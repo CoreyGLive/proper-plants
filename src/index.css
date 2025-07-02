@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0fdf4;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  background-color: #bbf7d0;
+  padding: 1rem;
+  margin: 0;
+  font-size: 2.5rem;
+  border-bottom: 4px solid #86efac;
+}
+
+.plant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.plant-card {
+  background-color: #fff;
+  border: 2px solid #d1fae5;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.plant-card .emoji {
+  font-size: 3rem;
+}
+
+button {
+  background-color: #4ade80;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #22c55e;
+}
+
+.cart {
+  background-color: #ecfccb;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-top: 4px dashed #a3e635;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cart-item .emoji {
+  font-size: 2rem;
+}
